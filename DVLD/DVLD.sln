@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD", "DVLD.csproj", "{1767D650-3206-42FF-ADD6-CACA9FA403D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{3CE5E4A8-8C9F-48AF-8DF8-9752FB65DEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{DE1036E4-AEA5-4FBA-BE6B-7201CB999992}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "..\SharedProject1\SharedProject1.shproj", "{315714FB-A2F1-43E0-849A-D25181B5C8AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1767D650-3206-42FF-ADD6-CACA9FA403D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1767D650-3206-42FF-ADD6-CACA9FA403D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1767D650-3206-42FF-ADD6-CACA9FA403D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1767D650-3206-42FF-ADD6-CACA9FA403D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE5E4A8-8C9F-48AF-8DF8-9752FB65DEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE5E4A8-8C9F-48AF-8DF8-9752FB65DEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE5E4A8-8C9F-48AF-8DF8-9752FB65DEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE5E4A8-8C9F-48AF-8DF8-9752FB65DEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1036E4-AEA5-4FBA-BE6B-7201CB999992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1036E4-AEA5-4FBA-BE6B-7201CB999992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1036E4-AEA5-4FBA-BE6B-7201CB999992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1036E4-AEA5-4FBA-BE6B-7201CB999992}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFD71852-E5B3-4EEA-8314-5C10EDA72D6D}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\SharedProject1\SharedProject1.projitems*{315714fb-a2f1-43e0-849a-d25181b5c8af}*SharedItemsImports = 13
+		..\SharedProject1\SharedProject1.projitems*{3ce5e4a8-8c9f-48af-8df8-9752fb65dedf}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
